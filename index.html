@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mortgage Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/LQQ0G8nDJpA" frameborder="0" allowfullscreen></iframe>
+    <h1>
+    <div class="form-horizontal">
+        <!-- Form Name -->
+        <h2>Mortgage Calculator</h2>
+    <!-- Text input-->
+    <div class="form-group">
+        <label id="loanBalance"  class="col-md-4 control-label" for="textinput " >Loan balance</label>
+        <div class="col-md-4">
+            <input type="textinput" maxlength="10" id="balanceOfLoan" name="textinput " class="form-control input-md " >
+        </div>
+    </div>
+    <!-- Text input-->
+    <div class="form-group">
+        <label id="interestRate" class="col-md-4 control-label" for="textinput ">Interest rate (% per year)</label>
+        <div class="col-md-4">
+            <input id="rateOfInterest" type="textinput" maxlength="3" name="textinput " type="text " class="form-control input-md ">
+            <span class="help-block"></span>
+        </div>
+    </div>
+    <!-- Text input-->
+    <div class="form-group">
+        <label id="loanTerm" class="col-md-4 control-label" for="textinput ">Loan term (in years)</label>
+        <div class="col-md-4">
+            <input id="termLoan" type="textinput" maxlength="2" name="textinput " type="text " class="form-control input-md ">
+            <span class="help-block"></span>
+        </div>
+    </div>
+    <!-- Select Basic -->
+    <div class="form-group">
+        <label id="paymentsPerYear" class="col-md-4 control-label" for="selectbasic ">Payments (per year)</label>
+        <div class="col-md-4">
+            <select id="yearlyPayments" name="selectBasic " class="form-control  ">
+                <option value="1">12</option>
+                <option value="2">6</option>
+            </select>
+        </div>
+    </div>
+    <!-- Button -->
+    <div class="form-group ">
+        <label class="col-md-4 control-label " for="singlebutton "></label>
+        <div class="col-md-4 ">
+            <!-- make calculate onclick -->
+            <button id="calculation " name="calculation " class="btn btn-primary " onclick="calculation()">calculate</button>
+        </div>
+    </div>
+    <p id="monthlyPayment"></p>
+    </div>
+    </h1>
+    <script src="index.js"></script>
+</body>

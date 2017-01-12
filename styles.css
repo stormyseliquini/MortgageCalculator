@@ -1,0 +1,27 @@
+h1 {
+    text-align: right;
+    font-size: 1.5em;
+    color: black;
+    margin-top: 275px;
+    margin-right: 300px;
+}
+
+#loanBalance {
+    font-size: 1em;
+}
+
+body {
+    background: url("https://cache-blog.credit.com/wp-content/uploads/2013/08/get-a-mortgage.jpg");
+}
+
+.video {
+    position: absolute;
+    /* positions out of the flow, but according to the nearest parent */
+    top: 0;
+    right: 700px;
+    /* confuse it i guess */
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    /* make em equal */
+}
