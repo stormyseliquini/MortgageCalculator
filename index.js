@@ -25,3 +25,4 @@ function calculation() {
     // push the results back to index.html
     document.getElementById("monthlyPayment").innerHTML = (payment).toFixed(2);
 }
+// reviewed by tr ap
